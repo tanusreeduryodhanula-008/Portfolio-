@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <style>
+            #nav{
+                display: flex;
+                background-color: bisque;
+                position:sticky;
+                top: 0;
+            }
+            #nav-items{
+                margin-left: 300px;
+                margin-top: 20px;
+            }
+
+            a{
+                margin-left: 20px;
+                color: baby pink;
+                text-decoration: none;
+            }
+
+            #home-content{
+                width: 400px;
+            }
+
+            #home{
+                display:flex;
+                background-color: gainsboro;
+                padding-top: 50px;
+                padding-left: 50px;
+                padding-bottom: 70px;
+            }
+            img{
+                margin-left: 100px;
+            }
+
+            p{
+                font-size: 20px;
+            }
+
+            #about h2{
+                text-align: center;
+            }
+
+            #about{
+                padding-left:50px;
+                padding-right:50px;
+                background-color: rgb(40, 40, 42);
+                color: white;
+                padding-top:10px;
+                padding-bottom: 15px;
+
+            }
+
+            #about p{
+                text-align: justify;
+                font-size: 18px;
+            }
+
+
+            #skills h2{
+                text-align: center;
+            }
+
+            #frontend{
+                border: 1px solid black;
+                width: 300px;
+                float: left;
+                margin-left: 50px;
+                background-color: rgb(127, 7, 93);
+            }
+
+            #backend{
+                border: 1px solid black;
+                width: 300px;
+                float: right;
+                margin-right: 50px;
+                background-color:rgb(127, 7, 93);
+            }
+            
+            #skills{
+                background-color: rgb(57, 59, 58);
+                padding-bottom: 250px;
+                color: white;
+                padding-top: 10px;
+            }
+
+            #skills h3{
+                text-align: center;
+            }
+            /* Contact Section */
+.contact {
+    min-height: 100vh;
+    padding: 100px 10%;
+    background: #081b29;
+    color: white;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.contact h2 span {
+    color: #00abf0;
+}
+
+.contact > p {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-details h3 {
+    color: #00abf0;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #bbb;
+}
+
+.contact-form button {
+    padding: 15px;
+    background: #00abf0;
+    border: none;
+    border-radius: 8px;
+    color: #081b29;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <h3 style="padding-left: 15px;">TANU SREE
+            </h3>
+            <div id="nav-items">
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+
+
+        <div id="home">
+            <div id="home-content">
+                <h2>I'M TANU SREE DURYODHANULA</h2>
+                <p>I am a 2nd-year B.Tech Information Technology student with a strong interest in technology and web development. I am currently learning the basics of HTML and CSS and exploring how to create simple and attractive websites. I enjoy learning new skills, improving my knowledge, and working on creative projects. My goal is to build my technical skills and gain practical experience while growing as an IT professional.</p>
+            </div>
+            <div>
+                <img src="chikki img.jpeg" width="250px" height="250px" alt="image">
+            </div>
+        </div>
+
+        <div id="about">
+            <h2>ABOUT ME</h2>
+            <p>I am a dedicated web developer with a passion for creating efficient web solutions. </p>
+            <h3>"Let me Introduce Myself"</h3>
+            <p> I'm TANU SREE,I'm Tanu Sree, a 2nd-year B.Tech Information Technology student with a strong passion for technology and web development. I have a solid foundation in HTML and CSS and working knowledge of Java and basic programming concepts. I am continuously developing my skills in front-end development and exploring new technologies to expand my technical knowledge. I enjoy creating websites, solving programming problems, and turning ideas into practical solutions. I am committed to continuous learning, hands-on development, and building a strong technical foundation for a successful career in the IT industry.</p>
+
+            <p>My strong problem-solving mindset, combined with a keen eye for detail, enables me to develop efficient, scalable, and user-friendly applications. I'm always eager to learn, adapt, and contribute to dynamic teams that value innovation.</p>
+        </div>
+
+
+        <div id="skills">
+            <h2>SKILLS</h2>
+            <div id="frontend">
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+
+            <div id="backend">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>JAVA</li>
+                    <li>C</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+    </body>
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+
+    <h2>Contact <span>Me!</span></h2>
+    <p>Let's connect and create something amazing together.</p>
+
+    <div class="contact-container">
+
+        <div class="contact-details">
+            <h3>Get In Touch</h3>
+
+            <p>
+                I am always excited to explore new opportunities,
+                learn new technologies, and connect with people.
+            </p>
+
+            <p><strong>Email:</strong>tanusreeduryodhanula@gmail.com</p>
+            <p><strong>linkedIn:</strong>linkedIn</p>
+            <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Mail ID" required>
+
+            <input type="text" placeholder="Subject" required>
+
+            <textarea rows="6"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+</html>
+
